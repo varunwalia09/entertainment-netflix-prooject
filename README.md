@@ -1,10 +1,9 @@
 # Getting Started with Create React App
 
-# 1st Deploy Link Here without Dashboard
-
+# 1st Deploy Link Here with Dashboard
+https://entertainment-netflix-prooject-dnzw.vercel.app/
 # 2nd Deploy On Vercel with Dashboard for back
-
-# 3nd Deploy Link Here
+https://movie-project-puce.vercel.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
