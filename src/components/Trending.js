@@ -1,15 +1,16 @@
-// Trending.js
 import React, { useEffect, useState } from "react";
 import { fetchData } from "../api/api";
 import { IoHeartOutline, IoHeart } from "react-icons/io5";
 import { AiOutlinePlayCircle } from "react-icons/ai";
 import YouTube from 'react-youtube';
+import { useNavigate, Link } from "react-router-dom";
 
 const Trending = ({ title, param }) => {
   const [trendingMovies, setTrendingMovies] = useState([]);
   const [favorites, setFavorites] = useState([]);
   const [isPlaying, setPlaying] = useState(false);
   const [activeVideoId, setActiveVideoId] = useState(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetchData(param).then((res) => setTrendingMovies(res.data.results));
@@ -50,6 +51,7 @@ const Trending = ({ title, param }) => {
   return (
     <div className="list">
       <div className="row">
+       
         <h2 className="text-white title">{title}</h2>
         <div className="col">
           <div className="row__posters">
@@ -92,12 +94,14 @@ const Trending = ({ title, param }) => {
           </div>
         </div>
       </div>
+      <div>
+        <li><Link className="btn btn-danger btn btn-outline-dark m-2" to="/dashboard">Dashboard</Link></li>
+      </div>
     </div>
   );
 };
 
 export default Trending;
-
 
 
 
