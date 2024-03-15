@@ -4,7 +4,8 @@
 https://entertainment-netflix-prooject-dnzw.vercel.app/
 # 2nd Deploy On Vercel with Dashboard for back
 https://movie-project-puce.vercel.app/
-
+Use this TMBd api keys
+https://api.themoviedb.org/3/movie/popular?api_key=98ee6ed6cd75ae1b0a841a3b465a863d
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
