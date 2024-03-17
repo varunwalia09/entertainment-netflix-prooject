@@ -2,8 +2,7 @@
 
 # 1st Deploy Link Here with Dashboard
 https://entertainment-netflix-prooject-dnzw.vercel.app/
-use this API key
-https://api.themoviedb.org/3/movie/popular?api_key=98ee6ed6cd75ae1b0a841a3b465a863d
+
 # 2nd Deploy On Vercel with Dashboard for back
 https://movie-project-puce.vercel.app/
 
